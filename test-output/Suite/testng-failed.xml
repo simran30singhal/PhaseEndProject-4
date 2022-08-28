@@ -5,9 +5,8 @@
     <classes>
       <class name="com.test.SwiggyApp">
         <methods>
-          <include name="Test_prerequisites"/>
           <include name="setUp"/>
-          <include name="validate_IncorrectLogin"/>
+          <include name="SearchFood_AddtoCart"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.test.SwiggyApp -->
