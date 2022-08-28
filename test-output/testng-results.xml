@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-28T15:59:26 IST" name="Default suite" finished-at="2022-08-28T16:02:40 IST" duration-ms="193946">
+    <groups>
+    </groups>
+    <test started-at="2022-08-28T15:59:26 IST" name="Default test" finished-at="2022-08-28T16:02:40 IST" duration-ms="193946">
+      <class name="com.test.SwiggyApp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.SwiggyApp@483f6d77]" started-at="2022-08-28T15:59:26 IST" name="setUp" finished-at="2022-08-28T16:00:23 IST" duration-ms="56315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchFood_AddtoCart()[pri:0, instance:com.test.SwiggyApp@483f6d77]" started-at="2022-08-28T16:00:23 IST" name="SearchFood_AddtoCart" finished-at="2022-08-28T16:01:09 IST" duration-ms="46448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFood_AddtoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.SwiggyApp@483f6d77]" started-at="2022-08-28T16:01:09 IST" name="tearDown" finished-at="2022-08-28T16:01:13 IST" duration-ms="3807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.SwiggyApp@483f6d77]" started-at="2022-08-28T16:01:13 IST" name="setUp" finished-at="2022-08-28T16:02:01 IST" duration-ms="48140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_IncorrectLogin()[pri:0, instance:com.test.SwiggyApp@483f6d77]" started-at="2022-08-28T16:02:01 IST" name="validate_IncorrectLogin" finished-at="2022-08-28T16:02:38 IST" duration-ms="36677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_IncorrectLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.SwiggyApp@483f6d77]" started-at="2022-08-28T16:02:38 IST" name="tearDown" finished-at="2022-08-28T16:02:40 IST" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.SwiggyApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
