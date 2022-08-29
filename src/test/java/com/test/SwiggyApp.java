@@ -43,7 +43,8 @@ public class SwiggyApp {
 		driver.findElementByXPath("//android.widget.Button[@text='Allow']").click();
 		Thread.sleep(3000);
 		getTextViewbyText("CHANGE").click();
-		getEditTextbyText("Search for area, street name…").sendKeys("Bangalore");
+		driver.findElementById("in.swiggy.android:id/location_description").sendKeys("Bangalore");
+		//getEditTextbyText("Search for area, street name…").sendKeys("Bangalore");
 		getTextViewbyText("Bangalore").click();
 		getTextViewbyText("CONFIRM LOCATION").click();
 	}
