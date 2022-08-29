@@ -6,6 +6,7 @@
       <class name="com.test.SwiggyApp">
         <methods>
           <include name="setUp"/>
+          <include name="SearchFood_AddtoCart"/>
           <include name="validate_IncorrectLogin"/>
           <include name="tearDown"/>
         </methods>

@@ -71,14 +71,14 @@ public class SwiggyApp {
 		Thread.sleep(3000);
 		getTextViewbyText("Pasta").click();
 		getTextViewbyText("Add").click();
-		getTextViewbyText("Continue").click();
+		//getTextViewbyText("Continue").click();
 		getTextViewbyText("Add Item").click();
 		getTextViewbyText("Checkout").click();
 		Thread.sleep(5000);
-//		driver.findElementByXPath("//android.widget.Button[@content-desc='Proceed with Phone Number']").click();
-//		String Expected="Almost There";
-//		String Actual=getTextViewbyText("Almost There").getText();
-//		Assert.assertEquals(Expected, Actual);
+		driver.findElementByXPath("//android.widget.Button[@content-desc='Proceed with Phone Number']").click();
+		String Expected="Almost There";
+		String Actual=getTextViewbyText("Almost There").getText();
+		Assert.assertEquals(Expected, Actual);
 	}
 	
 	@Test
