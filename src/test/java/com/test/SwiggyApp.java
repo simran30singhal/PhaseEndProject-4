@@ -72,7 +72,7 @@ public class SwiggyApp {
 		Thread.sleep(3000);
 		getTextViewbyText("Pasta").click();
 		getTextViewbyText("Add").click();
-		//getTextViewbyText("Continue").click();
+		getTextViewbyText("Continue").click();
 		getTextViewbyText("Add Item").click();
 		getTextViewbyText("Checkout").click();
 		Thread.sleep(5000);
